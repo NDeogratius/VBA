@@ -154,7 +154,7 @@ This subroutine performs a summary of stock data by ticker symbol and quarter.
 ### Output
 
 Once the script runs, each worksheet will appear as shown in the following screenshot
-![image-2](https://github.com/NDeogratius/VBA/assets/117791977/3c484da4-1c22-4ba9-b463-67da5831051e)
+![image](https://github.com/NDeogratius/VBA/assets/117791977/1638e7c0-e99c-458c-9a48-ecf60bcc0237)
 
 
 ## Subroutine: ConditionalFormat
