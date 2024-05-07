@@ -262,7 +262,7 @@ End Sub
 This subroutine finds the greatest percentage increase, greatest percentage decrease, and greatest total volume among all tickers and outputs the results.
 
 ### Output
-When tSubroutine: FindGreatestValues runs successfully each worksheet appears as below
+When the Subroutine: FindGreatestValues runs successfully each worksheet appears as below
 
 ![image-4](https://github.com/NDeogratius/VBA/assets/117791977/b22f0774-83ce-4a11-8527-f48ad3d66f4b)
 
