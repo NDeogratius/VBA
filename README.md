@@ -12,10 +12,12 @@ This challenge is guided by the following instructions
 - The total stock volume of the stock.
 
 The output of the VBA script(s) should look similar to this immage
-![alt text](image.png)
+![image](https://github.com/NDeogratius/VBA/assets/117791977/50c9112e-abe0-4af2-8d7f-fd9baf311a66)
+
 
 The workbook consists of 4 worksheets with similar data and layout as shown in the screenshot below
-![alt text](image-1.png)
+![image-1](https://github.com/NDeogratius/VBA/assets/117791977/0cae14ce-94a1-4667-9113-9bc64fe72a7a)
+
 
 
 The Task is broken down into three VBA scripts as explained below
@@ -152,7 +154,7 @@ This subroutine performs a summary of stock data by ticker symbol and quarter.
 ### Output
 
 Once the script runs, each worksheet will appear as shown in the following screenshot
-![alt text](image-2.png)
+![image-2](https://github.com/NDeogratius/VBA/assets/117791977/3c484da4-1c22-4ba9-b463-67da5831051e)
 
 
 ## Subroutine: ConditionalFormat
@@ -190,8 +192,7 @@ This subroutine applies conditional formatting to the summary table. It changes 
 
 ### Output
 The output of the conditionalFormat subroutine is shown in the screenshoot below
-![alt text](image-3.png)
-
+![image-3](https://github.com/NDeogratius/VBA/assets/117791977/745a138f-7299-4441-ae3c-0577998aa22a)
 
 ## Subroutine: FindGreatestValues
 
@@ -210,8 +211,7 @@ Sub FindGreatestValues()
     Dim maxIncrease As Double: maxIncrease = Application.WorksheetFunction.Max(Range("K:K"))
     Dim maxDecrease As Double: maxDecrease = Application.WorksheetFunction.Min(Range("K:K"))
     
-    
-    
+      
     ' Loop through all worksheets
         For Each ws In ThisWorkbook.Worksheets
             lastRow = ws.Cells(ws.Rows.Count, "K").End(xlUp).Row
@@ -264,4 +264,5 @@ This subroutine finds the greatest percentage increase, greatest percentage decr
 ### Output
 When tSubroutine: FindGreatestValues runs successfully each worksheet appears as below
 
-![alt text](image-4.png)
+![image-4](https://github.com/NDeogratius/VBA/assets/117791977/b22f0774-83ce-4a11-8527-f48ad3d66f4b)
+
